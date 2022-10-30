@@ -28,8 +28,7 @@
     "build-chrome": "INLINE_RUNTIME_CHUNK=false react-scripts build",
     "build-web": "cross-env PUBLIC_URL=/githunt react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "gh-pages": "NODE_DEBUG=gh-pages gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "cross-env": "^7.0.0",
