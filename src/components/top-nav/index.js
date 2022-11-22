@@ -4,7 +4,7 @@ import './styles.css';
 import Logo from '../icons/logo';
 
 class TopNav extends React.Component {
-  tweet = 'GitHunt – Most starred projects on Github by @kamranahmedse https://github.com/kamranahmedse/githunt';
+  tweet = 'GitHubba – Most starred projects on Github by @VaLandscapes https://github.com/uvacoder/abc-githubba';
 
   render() {
     // We need that to show the extension button only if not running in extension
@@ -15,7 +15,7 @@ class TopNav extends React.Component {
     return (
       <div className='top-nav'>
         <div className="container clearfix">
-          <a href='https://github.com/kamranahmedse/githunt'
+          <a href='https://github.com/uvacoder/abc-githubba'
              rel="noopener noreferrer"
              target='_blank'
              className="logo clearfix float-left">
@@ -27,7 +27,7 @@ class TopNav extends React.Component {
             </div>
           </a>
           <div className="float-right external-btns">
-            <a href='http://github.com/kamranahmedse/githunt'
+            <a href='http://github.com/uvacoder/abc-githubba'
                target='_blank'
                rel="noopener noreferrer"
                className="btn btn-dark"><i className="fa fa-github mr-1"></i> View Source</a>
@@ -43,7 +43,7 @@ class TopNav extends React.Component {
             }
             {
               isRunningExtension && (
-                <a href='https://twitter.com/kamranahmedse'
+                <a href='https://twitter.com/VaLandscapes'
                    target='_blank'
                    rel="noopener noreferrer"
                    className="btn btn-danger d-none d-sm-none d-md-inline-block d-xl-inline-block d-lg-inline-block">
