@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.6.2",
     "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
     "github-colors": "^2.2.18",
