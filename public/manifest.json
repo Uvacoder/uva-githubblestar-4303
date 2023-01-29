@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Githunt",
-  "short_name": "Githunt",
+  "name": "GithubbleStar",
+  "short_name": "GithubbleStar",
   "description": "Replace the new tab with a list of trending repositories on github belonging to any technology that you chose.",
   "version": "3.9",
   "permissions": [
@@ -16,9 +16,9 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "homepage_url": "http://kamranahmed.info/githunt",
+  "homepage_url": "http://GithubbleStar.vercel.app",
   "browser_action": {
-    "default_title": "Githunt",
+    "default_title": "GithubbleStar",
     "default_icon": "/img/icon128.png"
   }
 }
